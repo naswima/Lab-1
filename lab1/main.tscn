@@ -21,6 +21,6 @@ position = Vector2(1049, 77)
 scale = Vector2(1.42879, 1)
 texture = ExtResource("3_g2fj2")
 
-[node name="Rain" parent="." instance=ExtResource("4_xg6us")]
+[node name="Rain1" parent="." instance=ExtResource("4_xg6us")]
 
 [node name="Rain2" parent="." instance=ExtResource("4_xg6us")]
