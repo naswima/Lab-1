@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://rw34w7l76s68"]
+[gd_scene load_steps=5 format=3 uid="uid://rw34w7l76s68"]
 
 [ext_resource type="Texture2D" uid="uid://2s78ry6m387x" path="res://Forest.webp" id="1_sowio"]
 [ext_resource type="Texture2D" uid="uid://dvalvclmfnjvk" path="res://Parrot.png" id="2_jn3si"]
 [ext_resource type="Texture2D" uid="uid://ttnlfxw6jsek" path="res://Clouds.webp" id="3_g2fj2"]
+[ext_resource type="PackedScene" uid="uid://djsnmvf3g3vja" path="res://nested.tscn" id="4_xg6us"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -11,7 +12,7 @@ position = Vector2(727, 356)
 texture = ExtResource("1_sowio")
 
 [node name="Parrot" type="Sprite2D" parent="."]
-position = Vector2(250, 281)
+position = Vector2(202, 431)
 scale = Vector2(0.387083, 0.414583)
 texture = ExtResource("2_jn3si")
 
@@ -19,3 +20,7 @@ texture = ExtResource("2_jn3si")
 position = Vector2(1049, 77)
 scale = Vector2(1.42879, 1)
 texture = ExtResource("3_g2fj2")
+
+[node name="Rain" parent="." instance=ExtResource("4_xg6us")]
+
+[node name="Rain2" parent="." instance=ExtResource("4_xg6us")]

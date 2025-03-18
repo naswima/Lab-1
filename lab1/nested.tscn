@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://djsnmvf3g3vja"]
+
+[ext_resource type="Texture2D" uid="uid://ttnlfxw6jsek" path="res://Clouds.webp" id="1_n84t7"]
+[ext_resource type="Texture2D" uid="uid://dc3hr05wc235p" path="res://bird2.png" id="2_affbw"]
+
+[node name="Rain" type="Node2D"]
+
+[node name="Clouds" type="Sprite2D" parent="."]
+position = Vector2(316, 34)
+texture = ExtResource("1_n84t7")
+
+[node name="Bird2" type="Sprite2D" parent="."]
+position = Vector2(577, 115)
+scale = Vector2(0.222472, 0.253755)
+texture = ExtResource("2_affbw")
+
+[node name="Bird3" type="Sprite2D" parent="."]
+position = Vector2(451, 219)
+scale = Vector2(0.230731, 0.254693)
+texture = ExtResource("2_affbw")
+
+[node name="Bird4" type="Sprite2D" parent="."]
+position = Vector2(615, 244)
+scale = Vector2(0.164665, 0.162078)
+texture = ExtResource("2_affbw")
